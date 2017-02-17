@@ -280,7 +280,7 @@
 				DEVELOPMENT_TEAM = 3AHQZ8B5M2;
 				INFOPLIST_FILE = Tabview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZahidUIU.Tabview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZahidUIU.TabViewMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -292,7 +292,7 @@
 				DEVELOPMENT_TEAM = 3AHQZ8B5M2;
 				INFOPLIST_FILE = Tabview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZahidUIU.Tabview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZahidUIU.TabViewMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
