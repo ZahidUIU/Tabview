@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698831471E58E66F00C06421 /* levis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 698831461E58E66F00C06421 /* levis.jpg */; };
 		69D489551E572621002C1FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D489541E572621002C1FA8 /* main.m */; };
 		69D489581E572621002C1FA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D489571E572621002C1FA8 /* AppDelegate.m */; };
 		69D4895B1E572621002C1FA8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4895A1E572621002C1FA8 /* FirstViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		698831461E58E66F00C06421 /* levis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = levis.jpg; sourceTree = "<group>"; };
 		69D489501E572621002C1FA8 /* Tabview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D489541E572621002C1FA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69D489561E572621002C1FA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				69D4895C1E572621002C1FA8 /* SecondViewController.h */,
 				69D4895D1E572621002C1FA8 /* SecondViewController.m */,
 				69D4895F1E572621002C1FA8 /* Main.storyboard */,
+				698831461E58E66F00C06421 /* levis.jpg */,
 				69D489621E572621002C1FA8 /* Assets.xcassets */,
 				69D489641E572621002C1FA8 /* LaunchScreen.storyboard */,
 				69D489671E572621002C1FA8 /* Info.plist */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D489661E572621002C1FA8 /* LaunchScreen.storyboard in Resources */,
+				698831471E58E66F00C06421 /* levis.jpg in Resources */,
 				69D489631E572621002C1FA8 /* Assets.xcassets in Resources */,
 				69D489611E572621002C1FA8 /* Main.storyboard in Resources */,
 			);
@@ -316,6 +320,7 @@
 				69D4896C1E572621002C1FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -39,11 +39,26 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KiR-Nh-chm">
+                                <rect key="frame" x="67" y="108" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="levis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oM3-8H-TR8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="JHr-cm-DN3"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="acT-bw-iog" secondAttribute="trailing" id="97P-W0-swV"/>
+                            <constraint firstItem="oM3-8H-TR8" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="51" id="A80-2e-wYe"/>
                             <constraint firstItem="acT-bw-iog" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="QPL-gF-RGl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oM3-8H-TR8" secondAttribute="trailing" constant="52" id="Z1f-0P-yyd"/>
+                            <constraint firstItem="oM3-8H-TR8" firstAttribute="top" secondItem="acT-bw-iog" secondAttribute="bottom" constant="38.5" id="kCo-Kv-WcI"/>
                             <constraint firstItem="acT-bw-iog" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="29" id="ugI-3P-FNc"/>
                         </constraints>
                     </view>
@@ -115,6 +130,7 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="levis.jpg" width="1200" height="600"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
